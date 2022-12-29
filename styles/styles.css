@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Adelia";
+    src: url("../fonts/adelia.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Hello";
+    src: url("../fonts/Hello.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Aquille";
+    src: url("../fonts/AqillePersonalUse.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Honey";
+    src: url("../fonts/hello\ honey.otf");
+}
+
+body {
+    background-color: black;
+    color:white;
+    font-family: "Aquille";
+}
+
+.box{
+    margin: 25vh auto;
+    height:60vh;
+    width:60vw;
+    background-image: url('../images/MDSO6344.PNG');
+    background-position: center;
+    background-size: cover;
+    filter: brightness(30%)
+}
+
+.landingpage {
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    text-align: center;
+}
+
+.landingpage img{
+    margin-top:30vh;
+    width:100%;
+    height:45%;
+}
+.slogan{
+    font-family: "Hello";
+    text-align:center;
+    position:relative;
+    top:0;
+
+}
+
+@media (max-width: 576px)
+{
+    .landingpage img{
+        width:100%;
+        height:80%;
+    }
+    .box{
+        margin: 25vh auto;
+        height:60vh;
+        width:80vw;
+    }
+}
+
+@media (max-width: 992px)
+{
+
+}
+
+@media (max-width: 768px)
+{
+    .landingpage img{
+        width:100%;
+        height:40%;
+    }
+    .box{
+        margin: 25vh auto;
+        height:60vh;
+        width:80vw;
+    }
+    .slogan {
+        margin: auto;
+        width:400px;
+    }
+}
