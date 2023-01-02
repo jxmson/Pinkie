@@ -8,24 +8,29 @@
     src: url("../fonts/Hello.ttf") format('truetype');
 }
 @font-face {
-    font-family: "Aquille";
-    src: url("../fonts/AqillePersonalUse.ttf") format('truetype');
-}
-@font-face {
     font-family: "Honey";
     src: url("../fonts/hello\ honey.otf");
+}
+@font-face {
+    font-family: "Champagne";
+    src: url("../fonts/Champagne\ &\ Limousines.ttf");
+}
+@font-face {
+    font-family: "Baskerville";
+    src: url("../fonts/OpenBaskerville-0.0.53.otf");
 }
 
 body {
     background-color: black;
     color:white;
-    font-family: "Aquille";
+    font-family: "Champagne"
+    
 }
 
 .box{
-    margin: 25vh auto;
-    height:60vh;
-    width:60vw;
+    margin: 17vh auto;
+    height:70vh;
+    width:70vw;
     background-image: url('../images/MDSO6344.PNG');
     background-position: center;
     background-size: cover;
@@ -42,17 +47,48 @@ body {
 }
 
 .landingpage img{
-    margin-top:30vh;
+    margin-top:27vh;
     width:100%;
     height:45%;
 }
-.slogan{
-    font-family: "Hello";
+.slogan{    
+    font-family: "Champagne";
     text-align:center;
     position:relative;
     top:0;
-
 }
+
+#welcome {
+    text-align: center;
+    height: 90vh;
+}
+h1, h4 {
+    font-family: "Baskerville";
+}
+/* p {
+    color: rgb(133, 132, 132);
+} */
+
+.exhibit{
+    text-align: center;
+}
+.exhibit h4 {
+    font-style: italic;
+}
+
+.exhibit img{
+    height: 390px;
+    width: 320px;
+    margin-bottom:25px;
+    filter: brightness(60%)
+} 
+#exhibitImg {
+
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 80px;
+}
+
 
 @media (max-width: 576px)
 {
