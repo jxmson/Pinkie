@@ -30,7 +30,7 @@ body {
 .box{
     margin: 17vh auto;
     height:70vh;
-    width:70vw;
+    width:100vw;
     background-image: url('../images/MDSO6344.PNG');
     background-position: center;
     background-size: cover;
@@ -124,7 +124,7 @@ footer li {
     .box{
         margin: 25vh auto;
         height:60vh;
-        width:80vw;
+        width:100%;
     }
     .slogan {
         margin: auto;
@@ -142,7 +142,11 @@ footer li {
     }
     .box{
         margin: 10vh auto;
-        height:60vh;
-        width:80vw;
+        height:100vh;
+        width:100%;
+    }
+
+    #welcome {
+        margin-top: 50px;
     }
 }
