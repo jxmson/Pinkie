@@ -128,7 +128,16 @@ footer li {
     display: inline;
 }
 
+.top {
+    float: right;
 
+}
+.top:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+    cursor: pointer; 
+    filter: brightness(30%)
+}
 @media (max-width: 992px)
 {
     #welcomeText {
