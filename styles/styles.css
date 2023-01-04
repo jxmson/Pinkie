@@ -26,10 +26,20 @@ body {
     font-family: "Champagne"
     
 }
-
+.navbar {
+    position: absolue;
+}
+.navbar a, .navbar-toggler
+{
+    color:#ccc;
+}
+.navbar-brand {
+    font-family: "Hello";
+    font-size: 40px;
+}
 .box{
-    margin: 17vh auto;
-    height:70vh;
+    margin: auto;
+    height:100vh;
     width:100%;
     background-image: url('../images/MDSO6344.PNG');
     background-position: center;
@@ -47,7 +57,7 @@ body {
 }
 
 .landingpage img{
-    margin-top:27vh;
+    margin-top:15vh;
     width:100%;
     height:45%;
 }
@@ -60,13 +70,13 @@ body {
 
 #welcome {
     text-align: center;
-  
+  margin-top:80px;
 }
 
 #welcomeText {
-    padding-top: 20px;
+    padding-top: 50px;
     margin: auto;
-    width: 800px;
+    width: 700px;
 }
 h1, h4, h2 {
     font-family: "Baskerville";
@@ -92,7 +102,14 @@ h1, h4, h2 {
     text-align: center;
     margin-top: 80px;
 }
-
+.cups img {
+    height: 350px;
+    width: 400px;
+}
+.other img {
+    height: 350px;
+    width: 350px;
+}
 footer {
     margin-top:60px;
     margin-bottom:50px;
@@ -122,8 +139,8 @@ footer li {
         height:40%;
     }
     .box{
-        margin: 10vh auto;
-        height:60vh;
+        margin: auto;
+        height:100vh;
         width:100%;
     }
     .slogan {
