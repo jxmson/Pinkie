@@ -154,6 +154,11 @@ footer li {
     #welcomeText {
         width: 400px;
     }
+    #welcome {
+      padding-top:70px;
+      padding-bottom: 50px;;
+    
+    }
 }
 @media (max-width: 576px)
 {
