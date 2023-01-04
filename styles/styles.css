@@ -23,15 +23,15 @@
 body {
     background-color: black;
     color:white;
-    font-family: "Champagne"
-    
+    font-family: "Champagne"  
 }
-.navbar {
-    position: absolue;
-}
-.navbar a, .navbar-toggler
+
+.navbar a, .navbar-toggler, footer a 
 {
     color:#ccc;
+}
+footer a:hover {
+    color: rgb(56, 55, 55);
 }
 .navbar-brand {
     font-family: "Hello";
@@ -70,13 +70,18 @@ body {
 
 #welcome {
     text-align: center;
-  margin-top:80px;
+    /* height: 100vh; */
+  padding-top:100px;
+  padding-bottom: 100px;;
+
 }
 
 #welcomeText {
     padding-top: 50px;
     margin: auto;
-    width: 700px;
+    width: 600px;
+    color:#ccc;
+    font-size: 17px;
 }
 h1, h4, h2 {
     font-family: "Baskerville";
@@ -107,8 +112,8 @@ h1, h4, h2 {
     width: 400px;
 }
 .other img {
-    height: 350px;
-    width: 350px;
+    height: 370px;
+    width: 390px;
 }
 footer {
     margin-top:60px;
@@ -116,7 +121,6 @@ footer {
 }
 footer, footer a {
     text-align: center;
-    color: white;
 }
 
 footer li {
